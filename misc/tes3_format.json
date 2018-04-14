@@ -17,5 +17,34 @@
     },
     "STRV": {
         "value": ["string", 0]
+    },
+    "INTV": {
+        "value": ["int", 4]
+    },
+    "FLTV": {
+        "value": ["float", 4]
+    },
+    "FNAM": {
+        "value": ["string", 0]
+    },
+    "CLDT": {
+        "attribute_id_1": ["long", 4],
+        "attribute_id_2": ["long", 4],
+        "specialization": ["long", 4],
+        "minor_id_1": ["long", 4],
+        "major_id_1": ["long", 4],
+        "minor_id_2": ["long", 4],
+        "major_id_2": ["long", 4],
+        "minor_id_3": ["long", 4],
+        "major_id_3": ["long", 4],
+        "minor_id_4": ["long", 4],
+        "major_id_4": ["long", 4],
+        "minor_id_5": ["long", 4],
+        "major_id_5": ["long", 4],
+        "flags": ["long", 4],
+        "auto_calc_flags": ["long", 4]
+    },
+    "DESC": {
+        "value": ["string", 0]
     }
 }

@@ -1,0 +1,21 @@
+{
+    "HEDR": {
+        "version": ["float", 4],
+        "unknown": ["long", 4],
+        "company_name": ["string", 32],
+        "desc": ["string", 256],
+        "num_records": ["long", 4]
+    },
+    "MAST": {
+        "value": ["string", 0]
+    },
+    "DATA": {
+        "master_size": ["long64", 8]
+    },
+    "NAME": {
+        "value": ["string", 0]
+    },
+    "STRV": {
+        "value": ["string", 0]
+    }
+}
